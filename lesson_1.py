@@ -1,12 +1,19 @@
 class Student:
 
-	def __init__(self, name, grade):
+	def __init__(self, name, grade, age):
 		self.name = name
 		self.grade = grade
+		self.age = age
 
 
-kitty = Student('Kitty', 85)
-daniel = Student('Daniel', 80)
+lucija = Student('Lucija', 88, 22)
+mario = Student('Mario', 83, 19)
 
-print(kitty.name)
-print(daniel.name)
+print(lucija.name)
+print(mario.name)
+
+print(lucija.grade)
+print(mario.grade)
+
+print(lucija.age)
+print(mario.age)
