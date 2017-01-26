@@ -87,17 +87,14 @@ def scissors():
 # Handler to draw on canvas
 def draw(canvas):
     
-    try:
-        # Draw choices
-        canvas.draw_text("You: " + human_choice, [10,40], 48, "Green")
-        canvas.draw_text("Comp: " + computer_choice, [10,80], 48, "Red")
+    # Draw choices
+    canvas.draw_text("You: " + human_choice, [10,40], 48, "Green")
+    canvas.draw_text("Comp: " + computer_choice, [10,80], 48, "Red")
         
-        # Draw scores
-        canvas.draw_text("Human Score: " + str(HUMAN_SCORE), [10,150], 30, "Green")
-        canvas.draw_text("Comp Score: " + str(COMPUTER_SCORE), [10,190], 30, "Red")
+    # Draw scores
+    canvas.draw_text("Human Score: " + str(HUMAN_SCORE), [10,150], 30, "Green")
+    canvas.draw_text("Comp Score: " + str(COMPUTER_SCORE), [10,190], 30, "Red")
         
-    except TypeError:
-        pass
     
 
 # Create a frame and assign callbacks to event handlers
