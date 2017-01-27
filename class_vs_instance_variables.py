@@ -1,7 +1,7 @@
 class MusicStore:
-	website_guitars = "http://sexs_drugs_rock_n_roll.com/guitars"
-	website_drums = "http://sexs_drugs_rock_n_roll.com/drums"
-	website_bass = "http://sexs_drugs_rock_n_roll.com/bass_guitars"
+	website_guitars = "http://sex_drugs_rock_n_roll.com/guitars"
+	website_drums = "http://sex_drugs_rock_n_roll.com/drums"
+	website_bass = "http://sex_drugs_rock_n_roll.com/bass_guitars"
 
 	def __init__(self, name, title, description):
 		self.name = name
