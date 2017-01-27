@@ -5,7 +5,7 @@ Rock paper scissors
 import random
 # You need to have installed "SimpleGUICS2Pygame" as pip to run game locally.
 # run in your terminal or cmd:
-# pip install pygame          don't type this, just the web page for better understansding (http://www.pygame.org/lofi.html)
+# pip install pygame          don't type this, just the web page for better understanding (http://www.pygame.org/lofi.html)
 # pip install SimpleGUICS2Pygame         same as above (https://anaconda.org/pypi/simpleguics2pygame)
 import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
 
