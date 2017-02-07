@@ -21,7 +21,7 @@ class Fighter: # "Fighter" is the class name
 			print("{} now has {} points".format(other_guy.name, other_guy.health))
 
 
-	def smash(self, other_guy): 
+	def smash(self, other_guy):
 		other_guy.health = other_guy.health - self.destroy
 		if other_guy.health <= 0:
 			print("{} smash {}".format(self.name, other_guy.name))
@@ -34,8 +34,8 @@ class Fighter: # "Fighter" is the class name
 			print("{} now has {} points".format(other_guy.name, other_guy.health))
 
 
-	def __str__(self): 
-	# "__str__" is the dunder method (in this case string representation method) who overrides certain function, in this case "print(chopsocky)" and "print(western)" method, so that is look nicer
+	def __str__(self):
+	# "__str__" is the dunder method who overrides certain function, in this case "print" method
 		return "{} : {}".format(self.name, self.health)
 
 

@@ -1,8 +1,6 @@
 class Worker: # "Worker" is the class name
 
-	def __init__(self, name, age, address, hometown):
-	# "__init__" is the method (function inside of class is called method)
-	# example: def learn(self, ...)... "learn" is the method. "name, age,...." are input parameters or arguments (self is not a argument).
+	def __init__(self, name, age, address, hometown): # "__init__" is the method
 		self.name = name # ".name" (after "self") is attribute
 		self.age = age
 		self.address = address
